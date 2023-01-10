@@ -1,12 +1,13 @@
 # Button Hover
 
-Use a transition to scale the button when you hover your mouse over it.
+Use una transición para escalar el botón cuando pase el mouse sobre él.
+
 
 ## Desired Outcome
 
 ![outcome](./desired-outcome.gif)
 
 ### Self Check
-- Does the button grow when you hover it?
-- Do other properties of the button remain unchanged?
-- Does the `:hover` pseudo-class trigger the transition?
+- ¿Crece el botón cuando lo pasas?
+- ¿Se mantienen sin cambios otras propiedades del botón?
+- ¿La pseudo-clase `:hover` activa la transición?

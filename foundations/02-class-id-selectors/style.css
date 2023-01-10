@@ -1,0 +1,20 @@
+.impar{
+    background-color: rgb(247, 191, 190);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+
+}
+
+#numero-dos{
+    color: #0000FF;
+    font-size: 36px;
+}
+
+#numero-tres{
+    font-size: 24px;
+}
+
+#numero-cuatro{
+    background-color: #008f39;
+    font-size: 24px;
+    font-weight: 900;
+}
