@@ -1,25 +1,40 @@
 .header  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Agregamos esta propiedad para separar los elementos a los bordes del encabezado */
   font-family: monospace;
   background: papayawhip;
+  padding: 3%; /* Añadimos un espacio entre los elementos y el borde del encabezado */
 }
-
 .logo {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 0 auto; /* Centramos el logotipo vertical y horizontalmente */
 }
 
 ul {
-  /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex; /* Cambiamos el valor para que los elementos de la lista sean horizontales */
+  align-items: center; /* Centramos verticalmente los elementos de la lista dentro del encabezado */
+  margin: 0; /* Eliminamos el margen por defecto de la lista */
+  padding: 0; /* Eliminamos el padding por defecto de la lista */
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
-  /* this removes the line under the links */
   text-decoration: none;
+}
+
+
+.left-links {
+  margin-right: auto; /* Empujamos los enlaces a la izquierda completamente */
+}
+
+.right-links {
+  margin-left: auto; /* Empujamos los enlaces a la derecha completamente */
 }
